@@ -13,7 +13,7 @@ body {
 }
 
 ul, li {
-  align-items; 
+  align-items: center;
   display: inline;
   margin-right: 8%;
 }
