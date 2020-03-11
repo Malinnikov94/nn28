@@ -11,3 +11,7 @@ body {
 #video {
   background-color: gray;
 }
+
+li {
+  display: inline;
+}
