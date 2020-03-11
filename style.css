@@ -12,6 +12,6 @@ body {
   background-color: gray;
 }
 
-li {
+ul, li {
   display: inline;
 }
