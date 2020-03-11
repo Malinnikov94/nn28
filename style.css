@@ -16,6 +16,7 @@ ul, li {
   align-items: center;
   display: inline;
   margin-right: 8%;
+  margin-left: 8%;
 }
 
 a:hover > img {
