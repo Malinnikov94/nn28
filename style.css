@@ -15,8 +15,8 @@ body {
 ul, li {
   align-items: center;
   display: inline;
-  margin-right: 8%;
-  margin-left: 8%;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 a:hover > img {
