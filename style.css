@@ -13,6 +13,7 @@ body {
 }
 
 ul, li {
+  align-items; 
   display: inline;
   margin-right: 8%;
 }
