@@ -3,7 +3,13 @@ html {
     background: #000000;
 }
 
-div .main-page {
+div
+.main-page
+.head
+.left-menu
+.right-container
+.footer{
   margin: 2%;
   border-radius: 2px solid green;
+  background-color: black;
 }
