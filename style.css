@@ -1,5 +1,5 @@
 html {
-    width: 1920px; /* Высота веб-страницы */
-    background: #000 url(images/gif1.gif) no-repeat; /* Путь к графическому файлу с фоном */
+    height: 100%; /* Высота веб-страницы */
+    background: #000 url(images/gif1.gif) no-repeat width: 1920px; /* Путь к графическому файлу с фоном */
     color: #fff; /* Белый цвет текста */
 }
