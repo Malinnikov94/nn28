@@ -4,5 +4,6 @@ html {
 }
 
 div .main-page {
+  margin: 2%;
   border-radius: 2px solid green;
 }
