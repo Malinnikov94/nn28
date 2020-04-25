@@ -1,4 +1,8 @@
 html {
-    height: 100%; /* Высота веб-страницы */
-    background: #000 url(images/gif1.gif) no-repeat;
+    height: 100%;
+    background: #000000;
+}
+
+div .main-page {
+  border-radius: 2px solid green;
 }
