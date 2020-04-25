@@ -5,31 +5,3 @@ html {
 body {
   background-color: black;   /*Цвет фонв*/
 }
-
-.head {
-  margin: 2%;  /*Отступ снаружи*/
-  padding: 2%; /*Отступ внутри*/
-  background-color: none;
-  border: 3px solid green;
-}
-
-.stage {
-  margin: 2%;
-  padding: 2%;
-  background-color: none;
-  border: 3px solid green;
-}
-
-.left-menu {
-  margin: 1%;
-  padding: 2%;
-  background-color: none;
-  border: 3px solid green;
-}
-
-.right-container {
-  margin: 1%;
-  padding: 2%;
-  background-color: none;
-  border: 3px solid green;
-}
