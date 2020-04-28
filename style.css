@@ -1,8 +1,24 @@
-/*Комментарий*/
-html {
-  color: white;   /*Цвет текста*/
+body {
+  color: white;
+  font-size: 30px;
 }
 
-body {
-  background-color: black;   /*Цвет фонв*/
+
+.header {
+  background-color: gray;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.content {
+  background-color: gray;
+  min-height: 500px;
+  width: 70%;
+  float: left;
+}
+
+.sidebar {
+  background-color: gray;
+  width: 30%;
+  float:left;
 }
