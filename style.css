@@ -22,27 +22,40 @@ body {
 /* close commented backslash hack*/
 
 .header {
-  background-color: gray;
-  height: 200px;
   margin-bottom: 10px;
 }
 
-.content {
+.inner-header {
   background-color: gray;
-  min-height: 500px;
+  height: 200px;
+}
+
+.content {
   width: 70%;
   float: left;
 }
 
-.sidebar {
+.inner-content {
   background-color: gray;
   min-height: 500px;
+}
+
+.sidebar {
   width: 30%;
   float:left;
+  padding-left: 10px;
+}
+
+.inner-sidebar {
+  background-color: gray;
+  min-height: 500px;
 }
 
 .footer {
+  margin-top: 10px;
+}
+
+.inner-footer {
   background-color: gray;
   height: 200px;
-  margin-top: 10px;
 }
