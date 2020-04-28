@@ -4,7 +4,13 @@
 
 body {
   color: white;
-  font-size: 30px;
+  font-size: 16px;
+}
+
+li {
+  font-size: 25px;
+  list-style-type: none;
+  line-height: 35px;
 }
 
 .row:after {
@@ -27,21 +33,23 @@ body {
 
 .inner-header {
   background-color: gray;
-  height: 200px;
+  height: 150px;
 }
 
 .content {
-  width: 70%;
+  width: 85%;
   float: left;
 }
 
 .inner-content {
   background-color: gray;
   min-height: 500px;
+  padding: 1%;
+
 }
 
 .sidebar {
-  width: 30%;
+  width: 15%;
   float:left;
   padding-right: 10px;
 }
@@ -49,6 +57,7 @@ body {
 .inner-sidebar {
   background-color: gray;
   min-height: 500px;
+  padding: 1%;
 }
 
 .footer {
