@@ -19,6 +19,13 @@ body {
 
 .sidebar {
   background-color: gray;
+  min-height: 500px;
   width: 30%;
   float:left;
+}
+
+.header {
+  background-color: gray;
+  height: 200px;
+  margin-top: 10px;
 }
