@@ -43,7 +43,7 @@ body {
 .sidebar {
   width: 30%;
   float:left;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .inner-sidebar {
