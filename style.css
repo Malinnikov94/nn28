@@ -5,6 +5,7 @@
 body {
   color: white;
   font-size: 16px;
+  background-image: url(images/prism.png);
 }
 
 li {
@@ -33,7 +34,8 @@ li {
 
 .inner-header {
   background-color: gray;
-  height: 150px;
+  height: 100px;
+  opacity: 80%;
 }
 
 .content {
@@ -45,7 +47,7 @@ li {
   background-color: gray;
   min-height: 500px;
   padding: 1%;
-
+  opacity: 80%;
 }
 
 .sidebar {
@@ -58,6 +60,7 @@ li {
   background-color: gray;
   min-height: 500px;
   padding: 1%;
+  opacity: 80%;
 }
 
 .footer {
@@ -67,4 +70,5 @@ li {
 .inner-footer {
   background-color: gray;
   height: 200px;
+  opacity: 80%;
 }
