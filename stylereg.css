@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .hero {
@@ -13,12 +14,15 @@
 }
 
 .form-box {
-  height: 380px;
-  width: 480px;
+  height: 440px;
+  width: 380px;
   position: relative;
-  margin: 6% auto;
+  margin: 10% auto;
   background: #fff;
-  padding: 5px
+  padding: 5px;
+  overflow: hidden;
+  opacity: 0.9;
+  border-radius: 10%;
 }
 
 .button-box {
@@ -102,9 +106,16 @@ span {
   font-size: 12px;
   bottom: 68px;
   position: absolute;
-  
+
 }
 
+#login {
+  left: 50px;
+}
+
+#register {
+  left: 450px;
+}
 
 
 

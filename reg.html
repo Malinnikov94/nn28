@@ -12,21 +12,43 @@
           <div id="btn">
 
           </div>
-          <button type="button" class="toggle-btn">Log in</button>
-          <button type="button" class="toggle-btn">Register</button>
+          <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+          <button type="button" class="toggle-btn" onclick="register()">Register</button>
         </div>
         <div class="social-icons">
           <img src="images/fb.png" alt="Facebook">
           <img src="images/gp.png" alt="Google">
           <img src="images/tw.png" alt="Twitter">
         </div>
-        <form class="input-group">
+        <form id="login" class="input-group">
           <input type="text" class="input-field" placeholder="User ID" required>
-          <input type="text" class="input-field" placeholder="Enter password" required>
+          <input type="password" class="input-field" placeholder="Enter password" required>
           <input type="checkbox" class="chech-box"><span>Remember password</span>
           <button type="submit" class="submit-btn">Log in</button>
         </form>
+        <form id="register"class="input-group">
+          <input type="text" class="input-field" placeholder="User ID" required>
+          <input type="email" class="input-field" placeholder="Email" required>
+          <input type="password" class="input-field" placeholder="Enter password" required>
+          <input type="checkbox" class="chech-box"><span>I agree to the therms & conditions</span>
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
       </div>
     </div>
+    <script>
+      let x = document.getElementById("login");
+      let y = document.getElementById("register");
+      let z = document.getElementById("btn");
+      function register() {
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+      }
+      function login() {
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0";
+      }
+    </script>
   </body>
 </html>
