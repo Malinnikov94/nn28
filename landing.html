@@ -4,36 +4,67 @@
     <link rel="shortcut icon" href="css/images/iconR.png" type="image/png">
     <title>Голосеевский район</title>
     <meta charset="utf-8">
-    <style>
+    <style type="text/css">
       * {
         margin: 0;
         padding: 0;
+
+      }
+
+      body {
+        background-color: #bdbdbd;
       }
 
       td {
         padding: 7px;
       }
 
-      .inner-head {
-        position: relative;
+      .menu {
+        list-style-type: none;
+        text-align: center;
       }
 
-      .herb {
-        position: absolute;
+      .menu a {
+        height: 30px;
+        line-height: 30px;
+        background-color: #B764D4;
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+      }
 
+      .menu li {
+        display: inline-block;
+        border-bottom: 2px solid #52026E;
       }
     </style>
   </head>
   <body>
+    <div class="navigation">
+      <div class="inner-navigation">
+        <ul class="menu">
+          <li> <a href="#">Общая информация</a></li>
+          <li> <a href="#">История</a></li>
+          <li> <a href="#">Фотографии</a></li>
+          <li> <a href="#">Старые фотографии</a></li>
+        </ul>
+      </div>
+
+    </div>
     <div class="head">
       <div class="inner-head">
         <img src="css/images/head.jpg" alt="Панорама Голосеевского района" width="100%">
       </div>
+    </div>
+    <div class="herb">
       <div class="inner-herb">
         <img src="css/images/iconR.png" alt="Герб Голосеевского района">
       </div>
+      <div class="heading">
+        <h1>Голосеевский район</h1>
+      </div>
     </div>
-    <div class="table">
+    <!-- <div class="table">
       <div class="inner-table">
         <table border="1">
           <caption>Общая информация</caption>
@@ -52,6 +83,6 @@
                                           Теремки</td></tr>
         </table>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
