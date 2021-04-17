@@ -21,4 +21,4 @@ let name = ['Nickolay', 'Ivan', 'Roman', 'Bogdan'];   // Массив - array
 
 alert (mainWindow);
 
-let mainWindow = 'Push the button!'
+let mainWindow = 'Push the button!';
