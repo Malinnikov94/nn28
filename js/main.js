@@ -18,3 +18,5 @@ let text = 'String';                                  // Строка - string -
 let numbers = 10;                                     // Число - integer - int
 let name = ['Nickolay', 'Ivan', 'Roman', 'Bogdan'];   // Массив - array
   console.log(name[1]);                               // Вывод переменной
+
+alert ('Push the button');
