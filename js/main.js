@@ -19,4 +19,6 @@ let numbers = 10;                                     // Число - integer - 
 let name = ['Nickolay', 'Ivan', 'Roman', 'Bogdan'];   // Массив - array
   console.log(name[1]);                               // Вывод переменной
 
-alert ('Push the button');
+alert (mainWindow);
+
+let mainWindow = 'Push the button!'
