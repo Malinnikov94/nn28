@@ -18,7 +18,7 @@ let text = 'String';                                  // Строка - string -
 let numbers = 10;                                     // Число - integer - int
 let name = ['Nickolay', 'Ivan', 'Roman', 'Bogdan'];   // Массив - array
   console.log(name[1]);                               // Выведет из массива "Ivan", 0 = Nickolay
-
+  console.log('Hello world!');                        // Выведет в консоль Hello world!'
 
 
 //let mainWindow3 = 'Push the button!';                 // Переменная имеет строчное значение
