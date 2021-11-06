@@ -21,5 +21,5 @@ let name = ['Nickolay', 'Ivan', 'Roman', 'Bogdan'];   // Массив - array
 
 
 
-let mainWindow3 = 'Push the button!';
-alert (mainWindow3);
+//let mainWindow3 = 'Push the button!';                 // Переменная имеет строчное значение
+//alert (mainWindow3);                                  // Выводит значение переменной
